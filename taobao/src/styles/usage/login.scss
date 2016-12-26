@@ -1,0 +1,164 @@
+@import "./common/common";
+body,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+pre,
+xmp {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol, li {
+  list-style: none; }
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+  font-size: .16rem;
+}
+html{
+  font-family: "Microsoft YaHei";
+}
+body,html{
+  @include full;
+  background: #F0F0F0;
+}
+b,i{
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  html, body {
+    font-size: 920%; } }
+@media screen and (min-width: 1024px) {
+  html, body {
+    font-size:630%; } }
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  html, body {
+    font-size:625%; } }
+@media screen and (max-width: 374px) and (min-width: 321px) {
+  html, body {
+    font-size: 580%; } }
+@media screen and (max-width: 320px) {
+  html, body {
+    font-size: 480%; } }
+.yofont{
+  font-family:"iconfont";
+}
+.login-wrap{
+  @include full;
+  @include boxflex;
+  @include flex-direction(column);
+  .header{
+    width: 100%;
+    height: .44rem;
+    background: #F7F7F8;
+    border-bottom: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .44rem;
+    color: #6c6c6c;
+  }
+  .content{
+    @include flex;
+    font-size: .16rem;
+    ul{
+      width: 100%;
+      margin-top: .2rem;
+      li{
+        padding: .13rem .1rem;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        span{
+          text-align: left;
+          display: inline-block;
+          width: .8rem;
+          font-size: .16rem;
+          color: #6c6c6c;
+        }
+        ::-webkit-input-placeholder{
+          color: #ccc;
+        }
+        input{
+          border:none;
+          font-size: .15rem;
+          outline: none;
+        }
+      }
+    }
+    .login-btn{
+      width: 92%;
+      padding: .15rem 0;
+      margin: .1rem 4%;
+      text-align: center;
+      background: #f40;
+      color: #ffa286;
+      border-radius: .05rem;
+    }
+    .login-color{
+      color: #fff;
+    }
+    .zc-mima{
+      width: 100%;
+      color: #f40;
+      .zc{
+        text-align: left;
+        padding-left: .1rem;
+      }
+      .mima{
+        float: right;
+        padding-right: .1rem;
+      }
+    }
+  }
+}
+.mask{
+  position: absolute;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+  @include full;
+}
+.myAl{
+  width: 3rem;
+  height: 1.5rem;
+  @include boxflex;
+  @include flex-direction(column);
+  background: #fff;
+  font-size: .16rem;
+  text-align: center;
+  position: absolute;
+  top:30%;
+  left:50%;
+  margin-left: -1.5rem;
+  border-radius: .05rem;
+  p{
+    -webkit-flex:2;
+    margin-top: .3rem;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+  }
+  span{
+    -webkit-flex:1;
+    padding-top: .15rem;
+    color: #ffa286;
+    
+  }
+}

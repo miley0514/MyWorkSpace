@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("../../../img/myfont/iconfont.ttf");
+  src: url("../../../img/myfont/iconfont.woff"); }
+body,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+pre,
+xmp {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: .16rem; }
+
+html {
+  font-family: "Microsoft YaHei"; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background: #F0F0F0; }
+
+b, i, em {
+  font-weight: normal;
+  font-style: normal; }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  html, body {
+    font-size: 920%; } }
+@media screen and (min-width: 1024px) {
+  html, body {
+    font-size: 630%; } }
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  html, body {
+    font-size: 625%; } }
+@media screen and (max-width: 374px) and (min-width: 321px) {
+  html, body {
+    font-size: 580%; } }
+@media screen and (max-width: 320px) {
+  html, body {
+    font-size: 480%; } }
+.yofont {
+  font-family: "iconfont"; }
+
+.wrap {
+  width: 100%;
+  height: 100%; }
+  .wrap .header {
+    width: 100%;
+    height: 1.17rem;
+    background: url(../../../img/bguser.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    .wrap .header span {
+      position: absolute;
+      right: .1rem;
+      top: .1rem;
+      display: block;
+      width: .5rem;
+      height: .28rem;
+      line-height: .28rem;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border-radius: .25rem;
+      font-size: .13rem;
+      text-align: center; }
+    .wrap .header P {
+      font-size: .18rem;
+      position: absolute;
+      bottom: .1rem;
+      left: 1.2rem;
+      color: #fff; }
+    .wrap .header .title {
+      width: .8rem;
+      height: .8rem;
+      border-radius: 100%;
+      overflow: hidden;
+      position: absolute;
+      bottom: -.4rem;
+      left: .2rem;
+      border: 1px solid #fff;
+      box-sizing: border-box; }
+      .wrap .header .title img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+  .wrap .user-behavior {
+    width: 100%;
+    height: .55rem; }
+    .wrap .user-behavior ul {
+      width: 100%;
+      height: 100%;
+      display: -webkit-flex;
+      display: flex;
+      font-size: .14rem;
+      background: #fff; }
+      .wrap .user-behavior ul li {
+        -webkit-flex: 1;
+        margin: .1rem  0;
+        border-right: 1px solid #e7e7e7; }
+        .wrap .user-behavior ul li span, .wrap .user-behavior ul li b {
+          display: block;
+          text-align: center;
+          color: #051b28; }
+        .wrap .user-behavior ul li:first-child, .wrap .user-behavior ul li:last-child {
+          border: none; }
+  .wrap .order-act {
+    width: 100%;
+    height: 1.08rem;
+    background: #fff;
+    margin: .15rem 0;
+    font-size: .16rem; }
+    .wrap .order-act ul {
+      width: 100%;
+      height: .68rem;
+      border-bottom: 1px solid #e7e7e7;
+      box-sizing: border-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      justify-content: center;
+      text-align: center; }
+      .wrap .order-act ul li {
+        -webkit-flex: 1; }
+        .wrap .order-act ul li span, .wrap .order-act ul li b {
+          display: block;
+          color: #a2a2a2; }
+        .wrap .order-act ul li span {
+          font-size: .2rem; }
+        .wrap .order-act ul li b {
+          font-size: .13rem;
+          display: -webkit-flex;
+          display: flex;
+          justify-content: center; }
+    .wrap .order-act p {
+      width: 100%;
+      height: .4rem;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-between;
+      -webkit-align-items: center; }
+      .wrap .order-act p span {
+        display: inline-block;
+        background: #5090CD;
+        width: .25rem;
+        height: .25rem;
+        color: #fff;
+        font-size: .18rem;
+        border-radius: .02rem;
+        margin: 0 .1rem;
+        text-align: center;
+        line-height: .25rem; }
+      .wrap .order-act p b {
+        color: #999; }
+      .wrap .order-act p i {
+        font-size: .13rem;
+        color: #666;
+        padding-right: .1rem; }
+  .wrap .core-entry {
+    width: 100%;
+    height: 1.6rem;
+    background: #fff; }
+    .wrap .core-entry ul {
+      font-size: .16rem;
+      width: 100%;
+      height: 100%;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column; }
+      .wrap .core-entry ul li {
+        -webkit-flex: 1;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        border-top: 1px solid #e7e7e7; }
+        .wrap .core-entry ul li span {
+          width: .25rem;
+          height: .25rem;
+          color: #fff;
+          font-size: .18rem;
+          border-radius: .02rem;
+          margin: 0 .1rem;
+          text-align: center;
+          line-height: .25rem; }
+        .wrap .core-entry ul li b {
+          -webkit-flex: 1;
+          display: -webkit-flex;
+          display: flex;
+          justify-content: space-between;
+          -webkit-align-items: center;
+          color: #999; }
+          .wrap .core-entry ul li b em {
+            padding-right: .1rem;
+            color: #666;
+            font-size: .13rem; }
+      .wrap .core-entry ul .co1 {
+        background: #E7A200; }
+      .wrap .core-entry ul .co2 {
+        background: #5090CD; }
+      .wrap .core-entry ul .co3, .wrap .core-entry ul .co4 {
+        background: #00AEEF; }
+  .wrap .core-entry2 {
+    width: 100%;
+    height: .8rem;
+    margin: .15rem 0; }
+  .wrap .exit {
+    width: 100%;
+    height: .44rem;
+    background: #fff; }
+    .wrap .exit ul {
+      width: 100%;
+      height: 100%;
+      display: -webkit-flex;
+      display: flex;
+      font-size: .16rem; }
+      .wrap .exit ul li {
+        -webkit-flex: 1;
+        text-align: center; }
+        .wrap .exit ul li b {
+          border-right: 1px solid #e7e7e7;
+          display: block;
+          width: 100%;
+          margin: .1rem 0;
+          color: #999; }
+        .wrap .exit ul li:last-child b {
+          border: none; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+@font-face{
+	font-family:"iconfont";
+	
+	src:url("../../../img/myfont/iconfont.ttf");
+	src:url("../../../img/myfont/iconfont.woff");
+}
+@mixin boxflex(){
+	display:-webkit-flex;
+	display:flex;
+}
+@mixin flex(){
+	-webkit-flex:1;
+}
+@mixin flex-direction($row){
+	flex-direction:$row;
+}
+@mixin height(){
+	height:.44rem;
+	width: 100%;
+}
+@mixin full(){
+	width: 100%;
+	height: 100%;
+}
